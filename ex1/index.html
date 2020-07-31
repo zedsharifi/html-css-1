@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <!-- UIkit CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
+
+    <style>
+
+    .padding {
+      padding-top: 40px;
+    }
+    .user{
+      padding-top: 250px;
+      padding-left: 100px;
+      position: absolute;
+    }
+
+    .pas{
+      padding-top: 250px;
+      padding-left: 100px;
+      position: absolute;
+    }
+
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  color: black;
+  text-shadow: 1px 1px;
+}
+
+img.img1 {
+  width: 100%;
+  height: 800px;
+  opacity: 0.5;
+}
+
+  .slideshow{
+    display: block;
+    margin-left: auto;
+    position: relative;
+  }
+</style>
+
+
+    <title>Travel&Tours</title>
+
+
+  </head>
+    <body>
+      <div class="container">
+        <img class="img1" src="1475.jpg" alt="Cinque Terre" width="1000" height="300">
+        <div class="center">Travel & Tours</div>
+      </div>
+
+      <div>
+        <form class="pas">
+          <label for="fname">User Name:</label><br>
+          <input type="text" id="username" name="fname"><br>
+          <label for="lname">Password:</label><br>
+          <input type="text" id="Password" name="lname"><br><br>
+          <input type="submit" value="Submit">
+        </form>
+
+      </div>
+
+
+        <div class="uk-position-relative uk-visible-toggle uk-light padding" tabindex="-1" uk-slideshow>
+
+    <ul class="uk-slideshow-items">
+        <li>
+            <img class="uk-align-right slideshow" data-src="1.jpg" width="50%"  height="50%" alt="" uk-img="target: !.uk-slideshow-items">
+        </li>
+        <li>
+            <img class="uk-align-right slideshow" data-src="2.jpg" width="50%" height="50%" alt="" uk-img="target: !.uk-slideshow-items">
+        </li>
+        <li>
+            <img class="uk-align-right slideshow" data-src="3.jpg" width="50%" height="50%" alt="" uk-img="target: !.uk-slideshow-items">
+        </li>
+        <li>
+            <img class="uk-align-right slideshow" data-src="4.jpg" width="50%" height="50%" alt="" uk-img="target: !.uk-slideshow-items">
+        </li>
+    </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+
+</div>
+
+  </body>
+  </html>
