@@ -1,0 +1,53 @@
+#image{
+  background-image: url('22702.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  font-family: 'b titr';
+  color: #ad922a;
+  padding-right: 20px;
+  font-size: 39px;
+  border: 1px solid;
+  border-width: 5px;
+}
+
+.border{
+  width: 460px;
+}
+
+.welcome{
+  font-family: 'b koodak';
+  font-size: 24px;
+  background-color: #b7b53a;
+  padding-right: 20px;
+  width: 233px;
+  color: white;
+  opacity: 0.7;
+}
+
+.for{
+  color: white;
+  font-size: 27px;
+  font-family: 'b koodak';
+  padding-right: 10px;
+}
+
+#txt{
+  text-decoration: overline;
+  color: red;
+}
+
+.input{
+  font-size: 18px;
+  color: white;
+  padding-right: 20px;
+  font-family: 'b koodak';
+  padding-left: 10px;
+}
+
+#margin{
+  margin-left: 20px;
+  margin-right: 20px;
+}

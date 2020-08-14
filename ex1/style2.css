@@ -1,0 +1,16 @@
+.engfont{
+  font-family: "Gill Sans Ultra Bold",cursive;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.flex-container>div{
+  margin: 20px;
+  width: 500px;
+  height: 500px;
+
+}
